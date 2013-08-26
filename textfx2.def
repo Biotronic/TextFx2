@@ -1,0 +1,15 @@
+LIBRARY "TextFx2"
+DESCRIPTION "My DLL written in D"
+
+EXETYPE NT
+SUBSYSTEM WINDOWS
+CODE SHARED EXECUTE
+DATA WRITE
+
+EXPORTS
+    setInfo @1
+    getName @2
+    getFuncsArray @3
+    beNotified @4
+    messageProc @5
+    isUnicode @6
